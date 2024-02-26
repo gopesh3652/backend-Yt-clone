@@ -3,13 +3,17 @@
   "version": "1.0.0",
   "description": "backend using javascript",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": ""
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "backend",
     "javascript"
   ],
   "author": "Gopesh Khandelwal",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
 }

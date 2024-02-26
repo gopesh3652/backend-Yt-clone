@@ -1,0 +1,15 @@
+{
+  "name": "finalproject",
+  "version": "1.0.0",
+  "description": "backend using javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "keywords": [
+    "backend",
+    "javascript"
+  ],
+  "author": "Gopesh Khandelwal",
+  "license": "ISC"
+}

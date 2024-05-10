@@ -7,7 +7,7 @@ const connectDB = async () => {
       `${process.env.MONDODB_URI}/${DB_NAME}`
     );
     console.log(
-      `DB Connected !! DB HOST: ${connectionInstance.connection.host}`
+      `\nDB Connected !! DB HOST: ${connectionInstance/*.connection.host*/}`
     );
   } catch (error) {
     console.error(`DB Connection Error : ${error}`);
